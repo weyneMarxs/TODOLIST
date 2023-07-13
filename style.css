@@ -116,3 +116,16 @@ footer {
   position: absolute;
   margin-left: 4%;
 }
+
+@media (min-width: 768px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    color: #ffffffb0;
+    background-color: #ffffff21;
+    width: auto;
+    border-radius: var(--radius);
+    padding: 2rem;
+    box-shadow: 0 0.9375rem 2.5rem -1.25rem black;
+  }
+}
