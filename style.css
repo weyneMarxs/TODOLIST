@@ -128,7 +128,32 @@ footer {
     padding: 2rem;
     box-shadow: 0 0.9375rem 2.5rem -1.25rem black;
   }
+  .todo-input {
+    font-size: 1.0625rem;
+  }
+  .todo-item span {
+    font-size: 0.9rem;
+  }
+
+  .todo-item input[type='checkbox'] {
+    width: 1rem;
+    height: 1rem;
+    accent-color: lime;
+  }
+
+  .empty {
+    font-size: 0.9rem;
+  }
+
+  .completed-title {
+    font-size: 1.2rem;
+  }
   footer {
+    display: flex;
     font-size: 0.6875rem;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
   }
 }
