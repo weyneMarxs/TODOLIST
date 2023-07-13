@@ -117,7 +117,7 @@ footer {
   margin-left: 4%;
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 600px) {
   .app {
     display: flex;
     flex-direction: column;
@@ -127,5 +127,8 @@ footer {
     border-radius: var(--radius);
     padding: 2rem;
     box-shadow: 0 0.9375rem 2.5rem -1.25rem black;
+  }
+  footer {
+    font-size: 0.6875rem;
   }
 }
